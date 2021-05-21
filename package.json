@@ -1,0 +1,18 @@
+{
+  "name": "asedo-test",
+  "version": "1.0.0",
+  "description": "test task for asedo tech",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon index"
+  },
+  "author": "Chumachenko Michael <chumachenko.michael@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
