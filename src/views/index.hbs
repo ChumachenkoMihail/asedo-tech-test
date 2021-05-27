@@ -1,0 +1,18 @@
+<body>
+
+{{#if var}}
+    <div style="margin: 25px">
+        value: {{var}}
+
+
+    </div>
+    <form method="POST" style="margin: 25px">
+        <input type="radio" value="false" name="check" id="false" checked>
+        <label for="false">FALSE</label><br>
+        <input type="radio" value="true" name="check" id="true">
+        <label for="true">TRUE</label><br>
+        <input type="submit" value="Change value">
+    </form>
+{{/if}}
+
+</body>
